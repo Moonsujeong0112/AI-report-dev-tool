@@ -1,0 +1,10 @@
+# .env 파일 반드시 루트에 준비
+
+# 빌드 및 실행
+make up
+
+# 브라우저 접속(로컬)
+http://localhost:8004/
+
+# 종료
+make down

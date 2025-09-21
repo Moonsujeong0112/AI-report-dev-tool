@@ -1,0 +1,13 @@
+services:
+  llm-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llm_fastapi
+    ports:
+      - "80:80"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data  # 로컬 저장 파일 유지
+    restart: unless-stopped

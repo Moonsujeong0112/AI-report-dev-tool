@@ -1,0 +1,16 @@
+# FastAPI (REST API 서버)
+fastapi==0.110.1
+uvicorn[standard]==0.27.1
+
+#  Google Generative AI (Gemini SDK)
+google-generativeai==0.4.1
+
+#  .env 환경변수 로딩
+python-dotenv==1.0.1
+
+#  요청 테스트 (Streamlit에서 API 호출용)
+requests==2.31.0
+
+python-multipart
+
+pandas
